@@ -65,6 +65,7 @@ class MyApp extends StatelessWidget {
         body: Column(
           children: [
             titleSection,
+            buttonSection
           ],
         ), // ganti dari Center('Hello World')
       ),
