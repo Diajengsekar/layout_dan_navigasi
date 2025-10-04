@@ -59,12 +59,13 @@ class MyApp extends StatelessWidget {
   Widget textSection = Container(
   padding: const EdgeInsets.all(32),
   child: const Text(
-    'Carilah teks di internet yang sesuai '
-    'dengan foto atau tempat wisata yang ingin '
-    'Anda tampilkan. '
-    'Tambahkan nama dan NIM Anda sebagai '
-    'identitas hasil pekerjaan Anda. '
-    'Selamat mengerjakan 🙂.',
+    'Gunung Panderman adalah salah satu ikon wisata '
+    'di Kota Batu, Malang. Dengan ketinggian sekitar 2.045 mdpl, '
+    'gunung ini menawarkan panorama indah dan jalur pendakian '
+    'yang ramah bagi pendaki pemula maupun berpengalaman. '
+    'Udara sejuk dan pemandangan kota dari puncaknya '
+    'menjadi daya tarik utama bagi wisatawan.\n\n'
+    'Diajeng Sekar Arum (2341760070)',
     softWrap: true,
   ),
 );
@@ -78,7 +79,8 @@ class MyApp extends StatelessWidget {
         body: Column(
           children: [
             titleSection,
-            buttonSection
+            buttonSection,
+            textSection
           ],
         ), // ganti dari Center('Hello World')
       ),
